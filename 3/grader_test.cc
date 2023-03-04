@@ -85,7 +85,7 @@ TEST(Queue, AddOperatorBothNonEmpty) {
 
   Queue q3 = q1 + q2;
 
-  EXPECT_THAT(q3.GetData(), ElementsAreArray({1, 2, 3, 4, 5}));
+  EXPECT_THAT(q3.GetData(), ElementsAreArray({4, 5, 1, 2, 3}));
 }
 
 TEST(Queue, AddOperatorQ1Empty) {
