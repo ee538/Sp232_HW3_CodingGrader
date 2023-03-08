@@ -77,7 +77,7 @@ TEST(IsPalindrome, Simple) {
   EXPECT_FALSE(lib.IsPalindrome("abc"));
 }
 //-----------------------------------------------------------------------------
-TEST(IsPalindrome, OddNumberOfCharacters) {
+TEST(OddChar, OddNumberOfCharacters) {
   CPPLib lib;
 
   EXPECT_EQ(lib.OddChar(std::string("aaabb")), 'a');
